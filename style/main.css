@@ -68,19 +68,21 @@ h1.title {
     width: 100%;
     top: 10px;
     left: 0;
+    background: #242424;
     text-transform: uppercase;
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #242424; }
+    color: white; }
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
-    color: red;
+    background: #242424;
+    color: white;
     font-size: 25px;
     line-height: 25px;
     font-weight: bold;
-    color: ffffff;
+    color: white;
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
     -moz-animation: move-up 600ms ease-in;
@@ -90,9 +92,11 @@ h1.title {
     animation-fill-mode: both; }
 
 .score-container:after {
+  color:white;
   content: "Score"; }
 
 .best-container:after {
+  color:white;
   content: "Best"; }
 
 p {
